@@ -1,6 +1,6 @@
 
 const HeroBgAnimation = () => (
-  <div className='sm:right-16 absolute flex sm:justify-center -z-30 h-[500px] w-[530px]'>
+  <div className='sm:right-16 top-5 absolute flex sm:justify-center -z-30 md:h-[500px] md:w-[500px] h-[350px] w-[350px]'>
    
     <svg
       className="BgAnimation__svg"

@@ -9,7 +9,7 @@ export const HeroSection = () => {
         
       <HeroBgAnimation/>
       <div className="flex justify-center mt-5">
-      <img src={HeroImg} className="h-[400px] w-[400px]  absolute top-10 md:right-24  rounded-full -z-10 border-red-100 " alt="" />
+      <img src={HeroImg} className="h-[300px] w-[300px] md:h-[400px] md:w-[400px]  absolute top-10 md:right-24  rounded-full -z-10 border-red-100 " alt="" />
   </div>
    
       </div>
