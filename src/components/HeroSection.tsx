@@ -1,5 +1,5 @@
 
-import HeroImg from "../assets/manish.jpeg";
+import HeroImg from "../assets/IMG20240623135742.jpg";
 
 import {Bio} from "../components/Constent"
 import { Typewriter } from 'react-simple-typewriter'
@@ -57,13 +57,13 @@ export const HeroSection = () => {
 
         <div className="h-fit w-full relative ">
 
-          <div className="">
+          <div className="flex justify-center">
             <div>
             <HeroBgAnimation/>
             </div>
-            <div className="">
-            <div className="flex justify-center top-11   left-10 absolute md:left-60 md:top-20 rounded-full">
-            <img src={HeroImg} className=" h-[300px]   w-[300px] flex justify-center md:h-[400px] md:w-[400px]   rounded-full" alt="" />
+            <div className=" flex justify-center">
+            <div className="flex justify-center top-11   left-20 absolute md:left-60 md:top-20 rounded-full">
+            <img src={HeroImg} className=" h-[300px]   w-[300px] flex justify-center md:h-[400px] md:mt-5  md:w-[400px] z-50 border-2 shadow-2xl shadow-indigo-400 rounded-full" alt="" />
             </div>
             </div>
             
