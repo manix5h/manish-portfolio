@@ -63,6 +63,7 @@ export const Footer = () => {
         
         </div>
         <Copyright className="text-white font-pop ">&copy; 2024 Manish Sahu. All rights reserved.</Copyright>
+        
     </div>
   )
 }

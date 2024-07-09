@@ -2,7 +2,7 @@
 import { IoMdClose } from "react-icons/io";
 import { IoMenuSharp } from "react-icons/io5";
 import { useState } from "react";
-import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
+
 import { Link } from "react-scroll";
 
 import { RxSlash } from "react-icons/rx";
@@ -11,15 +11,16 @@ export const Navbar = () => {
 
     const [open, setOpen] = useState(false)
   return (
-    <div className="flex justify-center  p-2 relative z-10">
+    <div className="flex justify-center  p-2 relative z-10 font-pop">
         <div className=" w-11/12 md:w-10/12 flex justify-between mt-2 ">
         <div className="text-purple-900  flex text-xl md:text-2xl mt-2 font-bold">
-            <span className="pt-1 font-bold" ><SlArrowLeft /></span> <span className="text-white text-xl" >Manish</span> <span className="font-bold pt-1" ><RxSlash /></span> <span className="text-white text-xl">Sahu</span> <span className="font-bold pt-1" ><SlArrowRight /></span>
+      
+        <span className="text-4xl pr-1"> &lt;</span> <span className="text-white text-xl pt-1.5 font-pop" >Manish</span> <span className="font-bold pt-2" ><RxSlash /></span> <span className="text-white text-xl pt-1.5 font-pop">Sahu</span> <span className="text-4xl pl-1" >&gt;</span>
         </div>
 
         <div onClick={()=>{
             setOpen(!open)
-        }} className="cursor-pointer pl-3  text-white text-3xl flex flex-col justify-center absolute right-5 top-6  md:hidden">
+        }} className="cursor-pointer pl-3  text-white text-3xl flex flex-col justify-center absolute right-5 top-8  md:hidden">
         {open?<IoMdClose />:<IoMenuSharp />}
         
        
@@ -38,7 +39,7 @@ export const Navbar = () => {
             smooth={true}
             offset={50}
             duration={900}
-            className="cursor-pointer text-white hover:text-purple-700 font-semibold  duration-150 "
+            className="cursor-pointer font-pop text-white hover:text-purple-700 font-semibold  duration-150 "
           >
             About
           </Link>
@@ -109,7 +110,7 @@ export const Navbar = () => {
          
 
           <div>
-          <button type="button" className="text-white md:hidden  bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4  focus:outline-none  dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2 mt-2 text-center me-2 mb-2"><a href="https://github.com/manix5h">Github</a></button>
+          <button type="button" className="text-white md:hidden  bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4  focus:outline-none  dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2 mt-2 text-center me-2 mb-2"><a href="https://www.github.com/manix5h">Github</a></button>
        
           </div>
            
@@ -120,7 +121,7 @@ export const Navbar = () => {
         </div>
        </div>
 
-       <button type="button" className="text-white invisible md:visible  bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4  focus:outline-none  dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2 mt-2 text-center me-2 mb-2"><a href="https://github.com/manix5h">Github</a></button>
+       <button type="button" className="text-white invisible md:visible  bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4  focus:outline-none  dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2 mt-2 text-center me-2 mb-2"><a href="https://www.github.com/manix5h">Github</a></button>
        
         
     </div>

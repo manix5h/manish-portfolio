@@ -128,6 +128,7 @@ export default function Starfield(props: Props) {
 
 	return (
 		<canvas
+		className=''
 			id="starfield"
 			style={{
 				padding: 0,

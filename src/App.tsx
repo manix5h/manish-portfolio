@@ -18,7 +18,8 @@ function App() {
   return (
     <div className=''>
       <Starfield
-      starCount={5000}
+    
+      starCount={6000}
         starColor={[255, 255, 255]}
         speedFactor={0.050}
         backgroundColor="black"

@@ -13,9 +13,9 @@ export const Contact = () => {
   const handleSubmit = async (e: { preventDefault: any }) => {
     e.preventDefault();
 
-    const service_id = "service_ncs3jyy";
-    const template_id = "template_q4b3eke";
-    const publicKey = "rEu2DX70E5BzeFsRa";
+    const service_id = "service_3wmm8k7";
+    const template_id = "template_99j6fc8";
+    const publicKey = "n0KtA3IgvYT1pRPLG";
 
 
 

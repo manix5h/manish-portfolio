@@ -6,7 +6,7 @@ import { Typewriter } from 'react-simple-typewriter'
 
 export const HeroSection = () => {
   return (
-    <div className="flex justify-center" id="about">
+    <div className="flex justify-center " id="about">
       <div className=" w-full m-2 md:w-10/12 ">
 
       
@@ -55,15 +55,17 @@ export const HeroSection = () => {
 
       
 
-        <div className="h-fit w-full relative ">
+        <div className="h-fit w-full relative md:mt-0">
 
           <div className="flex justify-center">
             <div>
+            <div>
             <HeroBgAnimation/>
             </div>
-            <div className=" flex justify-center">
-            <div className="flex justify-center top-11   left-20 absolute md:left-60 md:top-20 rounded-full">
-            <img src={HeroImg} className=" h-[300px]   w-[300px] flex justify-center md:h-[400px] md:mt-5  md:w-[400px] z-50 border-2 shadow-2xl shadow-indigo-400 rounded-full" alt="" />
+            <div className=" ">
+            <div className="  md:absolute md:left-72 mt-10 md:top-20 rounded-full">
+            <img src={HeroImg} className=" h-[300px]   w-[300px]  md:h-[400px] md:mt-5 z-auto md:w-[400px]  border-2 shadow-2xl shadow-indigo-400 rounded-full" alt="" />
+            </div>
             </div>
             </div>
             
@@ -85,7 +87,7 @@ export const HeroSection = () => {
 
 const HeroBgAnimation = () => (
   <div className="flex justify-center">
-    <div className=' md:left-32 left-5  h-[400px] md:h-[600px] md:w-[600px] w-[390px]'>
+    <div className='absolute md:relative -z-50  md:left-32 left-5  h-[400px] md:h-[600px] md:w-[600px] w-[390px]'>
    
    <svg
       className="BgAnimation__svg"

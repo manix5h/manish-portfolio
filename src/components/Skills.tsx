@@ -8,7 +8,7 @@ export const Skills = () => {
     <div>
 
       
-      <div className="p-3 pb-10 ">
+      <div className="p-3 pb-10 mt-20 md:mt-0">
       <h1 className="text-white text-center shadow-2xl font-bold font-pop text-4xl sm:text-5xl   ">
         Skills
       </h1>
