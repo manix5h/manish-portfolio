@@ -48,7 +48,7 @@ export const Contact = () => {
   return (
     <div>
        <div>
-       <div className='font-pop text-white mt-5'>
+       <div className='font-pop text-white mt-5 '>
             <h1 className='text-white text-center shadow-2xl font-bold font-pop text-4xl sm:text-5xl'>
                 Contact
             </h1>

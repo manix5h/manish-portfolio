@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { FaCode } from "react-icons/fa6";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -63,7 +63,13 @@ export const Footer = () => {
         
         </div>
         <Copyright className="text-white font-pop ">&copy; 2024 Manish Sahu. All rights reserved.</Copyright>
-        
+        <a href="https://manishsahu-portfolioo.netlify.app/">
+        <div className="flex space-x-1 justify-center pt-2">
+        <FaCode className="mt-1 text-purple-400 w-9" />
+        <span className="text-purple-400">by Manish Sahu</span>
+        </div>
+        </a>
+        <p className="text-white text-center">website is under construction..</p>
     </div>
   )
 }

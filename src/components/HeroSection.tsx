@@ -44,7 +44,7 @@ export const HeroSection = () => {
         <p className="text-zinc-400 text-center  leading-8 text-md pt-7 text-pretty font-pop "> {Bio.description} </p>
 
             <div className="flex justify-center pt-7">
-            <a href="https://wwww.github/manix5h">
+            <a href="https://drive.google.com/file/d/19YM-qCWuFfUH9IflNe9Mi8emInspwR4e/view">
             <button type="button" className="text-white  bg-gradient-to-br w-fit from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Check Resume</button>
   
             </a>
@@ -64,7 +64,7 @@ export const HeroSection = () => {
             </div>
             <div className=" ">
             <div className="  md:absolute md:left-72 mt-10 md:top-20 rounded-full">
-            <img src={HeroImg} className=" h-[300px]   w-[300px]  md:h-[400px] md:mt-5 z-auto md:w-[400px]  border-2 shadow-2xl shadow-indigo-400 rounded-full" alt="" />
+            <img src={HeroImg} className=" h-[300px]   w-[300px]  md:h-[400px] md:mt-5 z-50 md:w-[400px]  border-2 shadow-2xl shadow-indigo-400 rounded-full" alt="" />
             </div>
             </div>
             </div>
@@ -87,7 +87,7 @@ export const HeroSection = () => {
 
 const HeroBgAnimation = () => (
   <div className="flex justify-center">
-    <div className='absolute md:relative -z-50  md:left-32 left-5  h-[400px] md:h-[600px] md:w-[600px] w-[390px]'>
+    <div className='absolute md:relative   md:left-32 left-5  h-[400px] md:h-[600px] md:w-[600px] w-[390px]'>
    
    <svg
       className="BgAnimation__svg"

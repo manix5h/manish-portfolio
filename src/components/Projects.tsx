@@ -24,7 +24,7 @@ export const Projects = () => {
        </div>
         </div>
        <div className="flex justify-center w-full">
-       <CardContainer className="w-10/12 mt-5">
+       <CardContainer className="w-10/12 mt-5 ">
         {projects
            
             .map((project) => (
