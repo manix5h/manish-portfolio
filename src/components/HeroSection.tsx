@@ -87,7 +87,7 @@ export const HeroSection = () => {
 
 const HeroBgAnimation = () => (
   <div className="flex justify-center">
-    <div className='absolute md:relative   md:left-32 left-5  h-[400px] md:h-[600px] md:w-[600px] w-[390px]'>
+    <div className='absolute md:relative -z-50  md:left-32 left-5  h-[400px] md:h-[600px] md:w-[600px] w-[390px]'>
    
    <svg
       className="BgAnimation__svg"

@@ -352,7 +352,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: "https://scontent.fudr1-1.fna.fbcdn.net/v/t39.30808-1/300387003_472667161535817_1854405821737909127_n.jpg?stp=dst-jpg_p200x200&_nc_cat=110&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=BJGqrr9RxccQ7kNvgESTQ6o&_nc_ht=scontent.fudr1-1.fna&gid=AOLT7Z0ZMpV5oIZP5CDRwdG&oh=00_AYCaj_lcdjglTKoD2osvpnp34uDh8TvOnUElmZRt779BMg&oe=66B076D7",
     school: "Nutan Bhartiya Sr. Sec Vidhya Mandir, Kota",
     date: "Apr 2019 - Apr 2025",
     grade: "89%",
@@ -361,7 +361,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: "https://scontent.fudr1-1.fna.fbcdn.net/v/t39.30808-1/300387003_472667161535817_1854405821737909127_n.jpg?stp=dst-jpg_p200x200&_nc_cat=110&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=BJGqrr9RxccQ7kNvgESTQ6o&_nc_ht=scontent.fudr1-1.fna&gid=AOLT7Z0ZMpV5oIZP5CDRwdG&oh=00_AYCaj_lcdjglTKoD2osvpnp34uDh8TvOnUElmZRt779BMg&oe=66B076D7",
     school: "Nutan Bhartiya Sr. Sec Vidhya Mandir, Kota",
     date: "Apr 2017 - Apr 2019",
     grade: "71%",
@@ -394,31 +394,28 @@ export const projects = [
     github: "https://github.com/manix5h/medium",
     webapp: "https://medium-git-master-manix5hs-projects.vercel.app/",
   },
-  // {
-  //   id: 9,
-  //   title: "Trackify",
-  //   date: "Jun 2023 - Jul 2023",
-  //   description:
-  //     "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-  //   tags: [
-  //     "Docker",
-  //     "AWS",
-  //     "DuckDNS",
-  //     "Eslint",
-  //     "Husky",
-  //     "CI/CD",
-  //     "React Js",
-  //     "MongoDb",
-  //     "Node Js",
-  //     "Express Js",
-  //     "Redux",
-  //   ],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Trackify",
-  //   webapp: "https://trackify-management.netlify.app/",
-  // },
+
+  
+
+  {
+    id: 9,
+    title: "Youtube to mp3",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "YouTube to MP3 Converter allows you to convert your favorite YouTube videos to MP3 (audio) or MP4 (video) files and to download them for FREE. ",
+    image:
+      "https://media.licdn.com/dms/image/D4D22AQF-uaT_SqAPZg/feedshare-shrink_2048_1536/0/1691910240215?e=1725494400&v=beta&t=Xm8D9d04y12s6Vb0QeHajbUn9qkdWVkF3tEPy55N9QI",
+    tags: [
+      "React",
+      "Rapid API",
+      "Tailwind CSS",
+      "axios",
+      
+    ],
+    category: "web app",
+    github: "https://github.com/manix5h/y2m3-downloader",
+    webapp: "https://y2mp3-manishsahu.netlify.app/",
+  },
   // {
   //   id: 0,
   //   title: "Podstream",
@@ -446,26 +443,24 @@ export const projects = [
   //     },
   //   ],
   // },
-  // {
-  //   id: 1,
-  //   title: "Vexa",
-  //   date: "Oct 2022 - Jan 2023",
-  //   description:
-  //     "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-  //   tags: [
-  //     "React Js",
-  //     "MongoDb",
-  //     "Node Js",
-  //     "Express Js",
-  //     "Redux",
-  //     "NodeMailer",
-  //   ],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Project-Management-App",
-  //   webapp: "https://vexa-app.netlify.app/",
-  // },
+  {
+    id: 1,
+    title: "Random Password Generator",
+    date: "Oct 2022 - Jan 2023",
+    description:
+      "Generating a random password can be done using various methods, depending on your needs and the tools available to you. Here are several ways to generate a random password, including code snippets and online tools:",
+    image:
+      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      
+    ],
+    category: "web app",
+    github: "https://github.com/manix5h/Password-Generator",
+    webapp: "https://password-generator-manix5h.netlify.app/",
+  },
   // {
   //   id: 2,
   //   title: "Brain Tumor Detection",
@@ -506,45 +501,45 @@ export const projects = [
   //   github: "https://github.com/rishavchanda/Buckoid-Android-App",
   //   webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
   // },
-  // {
-  //   id: 10,
-  //   title: "Job Finding App",
-  //   date: "Jun 2023 - Jul 2023",
-  //   description:
-  //     "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-  //   tags: ["React Native", "JavaScript", "Axios"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Job-finder-App",
-  //   webapp: "https://github.com/rishavchanda/Job-finder-App",
-  // },
+  {
+    id: 10,
+    title: "Shopping App",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "shopping app can be a complex project, depending on the features you want to include. Here’s a high-level overview of the key components and steps you might take to develop a shopping app, including a basic example of how you might structure it using modern technologies.",
+    image:
+      "https://media.licdn.com/dms/image/D4D22AQEtt0iMK0yw7Q/feedshare-shrink_2048_1536/0/1690869210186?e=1725494400&v=beta&t=fSPIsYC6oea1TeQKz_LDKAtGWNTjPpPcLr48MzRvZmo",
+    tags: ["React ","Tailwind CSS", "JavaScript", "Axios"],
+    category: "web app",
+    github: "https://github.com/manix5h/shopping-cart-app",
+    webapp: "https://shopping-app-manishsahu.netlify.app/",
+  },
   // {
   //   id: 4,
-  //   title: "Whatsapp Clone",
+  //   title: "Random Gif Generator",
   //   date: "Jul 2021",
   //   description:
-  //     "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+  //     "a random GIF generator can be a fun project. You can build a simple web-based generator using JavaScript, HTML, and CSS. Here’s a step-by-step guide to creating a basic GIF generator that fetches random GIFs from an API like Giphy or Tenor.",
   //   image:
   //     "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-  //   tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+  //   tags: ["React Js", "Tailwind CSS", "Axios"],
   //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-  //   webapp: "https://whatsapp-clone-rishav.web.app",
+  //   github: "https://github.com/manix5h/Random-gif-generator",
+  //   webapp: "https://manishsahu-random-gif-generator.netlify.app/",
   // },
-  // {
-  //   id: 5,
-  //   title: "Todo Web App",
-  //   date: "Jun 2021",
-  //   description:
-  //     " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-  //   image:
-  //     "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-  //   tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Todo-Web-App",
-  //   webapp: "https://rishav-react-todo.netlify.app/",
-  // },
+  {
+    id: 5,
+    title: "Parallex Scroll",
+    date: "Jun 2021",
+    description:
+      "  parallax scrolling effect involves moving background and foreground elements at different speeds to create a sense of depth. This effect is popular for adding visual interest to web pages. Below is a step-by-step guide to creating a basic parallax scrolling web application using HTML, CSS, and JavaScript.",
+    image:
+      "https://www.website-designers.co.nz/images/blog/what-is-parallax-scrolling-1200x592.jpg",
+    tags: ["HTML", "CSS ", "JavaScript"],
+    category: "web app",
+    github: "https://github.com/manix5h/parallax_scroll/settings/pages",
+    webapp: "https://manix5h.github.io/parallax_scroll/",
+  },
   // {
   //   id: 6,
   //   title: "Breaking Bad",

@@ -63,8 +63,8 @@ export const Contact = () => {
            
             <div>
          
-            <div className="w-full  flex justify-center items-center font-pop mt-4 pb-5" >
-    <div className="py-8 px-6  bg-indigo-400 bg-opacity-30 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter">
+            <div className="  flex justify-center items-center font-pop mt-4 pb-5" >
+    <div className="py-8 px-6 w-fit md:w-4/12  bg-indigo-400 bg-opacity-30 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter">
    
         <h1 className="text-3xl font-extrabold text-center text-white mb-5"> <span>Email Me 🚀</span></h1>
      

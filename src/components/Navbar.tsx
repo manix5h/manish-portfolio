@@ -15,7 +15,7 @@ export const Navbar = () => {
         <div className=" w-11/12 md:w-10/12 flex justify-between mt-2 ">
         <div className="text-purple-900  flex text-xl md:text-2xl mt-2 font-bold">
       
-        <span className="text-4xl pr-1"> &lt;</span> <span className="text-white text-xl pt-1.5 font-pop" >Manish</span> <span className="font-bold pt-2" ><RxSlash /></span> <span className="text-white text-xl pt-1.5 font-pop">Sahu</span> <span className="text-4xl pl-1" >&gt;</span>
+        <span className="text-4xl pr-1"> &lt;</span> <span className="text-white text-xl pt-1.5 font-pop" >Manish</span> <span className=" pt-2 text-2xl" ><RxSlash /></span> <span className="text-white text-xl pt-1.5 font-pop">Sahu</span> <span className="text-4xl pl-1" >&gt;</span>
         </div>
 
         <div onClick={()=>{
