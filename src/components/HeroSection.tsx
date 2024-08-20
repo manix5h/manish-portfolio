@@ -26,8 +26,8 @@ export const HeroSection = () => {
           
 
             words={[
-              "Full Stack Developer",
-              "Android Developer",
+              "Developer",
+             
               "Freelancer",
               "Programmer",
             ]}

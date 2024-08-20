@@ -1,7 +1,7 @@
 export const Bio = {
   name: "Manish Sahu",
   roles: [
-    "Full Stack Developer",
+    "Developer",
     
     "Freelancer",
     "Programmer",
@@ -352,7 +352,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://scontent.fudr1-1.fna.fbcdn.net/v/t39.30808-1/300387003_472667161535817_1854405821737909127_n.jpg?stp=dst-jpg_p200x200&_nc_cat=110&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=BJGqrr9RxccQ7kNvgESTQ6o&_nc_ht=scontent.fudr1-1.fna&gid=AOLT7Z0ZMpV5oIZP5CDRwdG&oh=00_AYCaj_lcdjglTKoD2osvpnp34uDh8TvOnUElmZRt779BMg&oe=66B076D7",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQNhGjHsq9XjaXbHxWA2QTJv29r7WpIoZMug&s",
     school: "Nutan Bhartiya Sr. Sec Vidhya Mandir, Kota",
     date: "Apr 2019 - Apr 2025",
     grade: "89%",
@@ -361,7 +361,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://scontent.fudr1-1.fna.fbcdn.net/v/t39.30808-1/300387003_472667161535817_1854405821737909127_n.jpg?stp=dst-jpg_p200x200&_nc_cat=110&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=BJGqrr9RxccQ7kNvgESTQ6o&_nc_ht=scontent.fudr1-1.fna&gid=AOLT7Z0ZMpV5oIZP5CDRwdG&oh=00_AYCaj_lcdjglTKoD2osvpnp34uDh8TvOnUElmZRt779BMg&oe=66B076D7",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQNhGjHsq9XjaXbHxWA2QTJv29r7WpIoZMug&s",
     school: "Nutan Bhartiya Sr. Sec Vidhya Mandir, Kota",
     date: "Apr 2017 - Apr 2019",
     grade: "71%",
@@ -380,7 +380,7 @@ export const projects = [
       "Website:Radio.com Built with React and TypeScript, Inspired by Medium.com! in serverless fashion using cloudflare workers and Prisma as the ORM, with connection pooling. ",
 
     image:
-      "https://media.licdn.com/dms/image/D4D22AQHZLFqfful-HQ/feedshare-shrink_2048_1536/0/1715332608512?e=1723680000&v=beta&t=auiSwrDCUWuo_pBeMlLzp67_XJNHWZgJnhFQ0XBQF5g",
+      "https://media.licdn.com/dms/image/v2/D4D22AQHZLFqfful-HQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1715332608512?e=1727308800&v=beta&t=o_FK4-CcAxE8vSQf6ihmest-qBhjJ3Au9XcL-qh-xO8",
     tags: [
       "React Ts",
       "PostgressSQL",
@@ -395,7 +395,6 @@ export const projects = [
     webapp: "https://medium-git-master-manix5hs-projects.vercel.app/",
   },
 
-  
 
   {
     id: 9,
@@ -488,19 +487,19 @@ export const projects = [
   //     },
   //   ],
   // },
-  // {
-  //   id: 3,
-  //   title: "Buckoid",
-  //   date: "Dec 2021 - Apr 2022",
-  //   description:
-  //     "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-  //   image:
-  //     "https://camo.githubusercontent.com/3ad28aa710d18525f1fc87de056ed53c706d09979589bfd5a773df36653bad38/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-  //   tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Buckoid-Android-App",
-  //   webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
-  // },
+  {
+    id: 3,
+    title: "VirelVision",
+    date: "Feb 2024 - Apr 2024",
+    description:
+      "Freelancing project for social media marketing..",
+    image:
+      "https://i.ibb.co/Kw9d1ts/Screenshot-from-2024-08-01-11-09-51.png",
+    tags: ["React","Typescript", "EmailJs", "Axios", "Framer MOtion", "Aos", "Tailwind CSS"],
+    category: "android app",
+    github: "https://github.com/manix5h/virelVision",
+    webapp: "https://virelvision.online/",
+  },
   {
     id: 10,
     title: "Shopping App",
